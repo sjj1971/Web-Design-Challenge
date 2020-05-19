@@ -1,0 +1,43 @@
+head {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+    color: green;
+    background-color: white;
+}
+
+h2{
+    color: green;
+    background-color: white;
+}
+
+h3{
+    color: green;
+    background-color: white;
+}
+
+img{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px moccasin;
+}
+
+section{
+    background-color: white;
+}
+
+p {
+    background-color: white;
+    color: black;
+    font-size: 15;
+}
+
+paragraph {
+    font-size: 15;
+}
+
+ul {
+    background-color: limegreen;
+}
