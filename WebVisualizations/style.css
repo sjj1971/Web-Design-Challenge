@@ -1,27 +1,93 @@
-head {
-    text-align: center;
+
+.link_color{
+    color: #d21034;
 }
+
+.box-set {
+  position: relative;
+}
+
+.box {
+  /* Absolute Position */
+  position: absolute;
+  width: 40%;
+  margin: 20px;    
+}
+
+
+.box1{
+    top:2%;
+    left:2%;
+}
+
+.box2{
+    top:2%;
+    right:2%;
+}
+
+.box3{
+    bottom:2%;
+    left:2%;
+}
+
+.box4{
+    bottom:2%;
+    right:2%;
+}
+
+#main_body{
+    margin-top: 50px;            
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    float: left;
+    width:55%;
+    background-color: white;
+    border: 1px;
+    padding: 10px
+        
+}
+
+#visual-body{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    float: left; 
+    width: 30%;
+    background-color: white;
+    border: 1px;
+}
+#foot_body{
+    float:left;
+    position: absolute;
+    bottom:0;
+    text-align: center
+}
+
+#main_imag{
+    float:left;
+    width: 160 px;
+    margin: 20px;
+}
+
+
+
 h1 {
-    text-align: left;
     color: green;
+    font-weight: bolder;
     background-color: white;
 }
 
 h2{
     color: green;
     background-color: white;
+    font-weight: bolder;
 }
 
 h3{
     color: green;
     background-color: white;
-}
-
-img{
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 10px 10px moccasin;
 }
 
 section{
@@ -40,4 +106,44 @@ paragraph {
 
 ul {
     background-color: limegreen;
+}
+
+
+body{
+    background-color: #efeee7;
+    font-family: "Georgia", Times New Roman, Times, serif;.
+    color: #333333;
+}
+
+// Code for "regular" computer screens
+
+/*------------------------------------*\
+    $SMALL COMPUTER SCREENS
+\*------------------------------------*/
+ @media all and (max-width: 1034px) {
+
+}
+
+/*------------------------------------*\
+    $IPAD AND TABLET
+\*------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/*------------------------------------*\
+    $IPHONE 4S LANDSCAPE
+\*------------------------------------*/
+
+@media only screen and (max-width : 480px) {
+
+}
+
+/*------------------------------------*\
+    $IHPONE 4S
+\*------------------------------------*/
+
+@media only screen and (max-width : 320px) {
+
 }
