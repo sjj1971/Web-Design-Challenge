@@ -1,149 +1,130 @@
 
-.link_color{
-    color: #d21034;
+body {
+    background-color: darkgrey;
+}
+footer{
+    color:aliceblue;
+}
+.nav_button_bg{
+    background-color: aquamarine;
 }
 
-.box-set {
-  position: relative;
-}
-
-.box {
-  /* Absolute Position */
-  position: absolute;
-  width: 40%;
-  margin: 20px;    
-}
-
-
-.box1{
-    top:2%;
-    left:2%;
-}
-
-.box2{
-    top:2%;
-    right:2%;
-}
-
-.box3{
-    bottom:2%;
-    left:2%;
-}
-
-.box4{
-    bottom:2%;
-    right:2%;
-}
-
-#main_body{
-    margin-top: 50px;            
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 20px;
-    float: left;
-    width:55%;
+.container{
+    width: 1024px;
+    height:100%;
+    margin: auto;
+        }        
+article{
     background-color: white;
-    border: 1px;
-    padding: 10px
-        
-}
-
-#visual-body{
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 20px;
-    float: left; 
-    width: 30%;
-    background-color: white;
-    border: 1px;
-}
-#foot_body{
     float:left;
-    position: absolute;
-    bottom:0;
+    width:55%;
+    height:100%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid;
+}
+        
+visual-body{
+    background-color: white;
+    float:left;
+    width:40%;
+    height:100%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid;
+}
+
+.comparison_body{
+    background-color: white;
+/*
+    width:100%;
+    height:100%;
+*/
+    margin:20px;
+    padding:20px;
+    border: 1px solid;
+}
+.body_img{
+    width:160px;
+    height:160px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.visual_img{
+    width:100%;
+    height:100%;
+    margin-left:10px;
+}
+.title_style{
+    color: darkgreen;
+    font-weight: bolder;
+}
+.button_style{
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.text_center{
     text-align: center
 }
 
-#main_imag{
-    float:left;
-    width: 160 px;
-    margin: 20px;
-}
-
-
-
 h1 {
-    color: green;
-    font-weight: bolder;
-    background-color: white;
+    font-size:30px;
 }
 
-h2{
-    color: green;
-    background-color: white;
-    font-weight: bolder;
+footer{
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    border-top: 3px green solid;
+    padding:5px;
+    background-color: #333333;
+    clear: both;
+    text-align: center
 }
 
-h3{
-    color: green;
-    background-color: white;
-}
+            
+            
+            @media only screen and (max-width: 991px){
+                article{
+                    position: static;
+                    float: none;
+                    width: 95%;
+                    background-color: white;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
+                visual-body{
+                    width: 95%;
+                    background-color: white;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
+                
+                .visual_img{
+                    width:100%;
+                    height:100%;
+                    margin-left:5px;
+                    border-bottom: 1px solid darkgray;
+                }
 
-section{
-    background-color: white;
-}
+                footer{
+                    position: relative;
+                    bottom:0px;
+                }
+                .box{
+                    float: left;
+                    width: 20%;
+                    margin: 20px;
+                }
+                .container{
+                    width: 100%;
+                    height:100%;
+                }
+                
+  
+            }
 
-p {
-    background-color: white;
-    color: black;
-    font-size: 15;
-}
-
-paragraph {
-    font-size: 15;
-}
-
-ul {
-    background-color: limegreen;
-}
-
-
-body{
-    background-color: #efeee7;
-    font-family: "Georgia", Times New Roman, Times, serif;.
-    color: #333333;
-}
-
-// Code for "regular" computer screens
-
-/*------------------------------------*\
-    $SMALL COMPUTER SCREENS
-\*------------------------------------*/
- @media all and (max-width: 1034px) {
-
-}
-
-/*------------------------------------*\
-    $IPAD AND TABLET
-\*------------------------------------*/
-
-@media only screen and (max-width: 767px) {
-
-}
-
-/*------------------------------------*\
-    $IPHONE 4S LANDSCAPE
-\*------------------------------------*/
-
-@media only screen and (max-width : 480px) {
-
-}
-
-/*------------------------------------*\
-    $IHPONE 4S
-\*------------------------------------*/
-
-@media only screen and (max-width : 320px) {
-
-}
