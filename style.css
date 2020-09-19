@@ -1,0 +1,149 @@
+.navbar{
+    background-color: linen;
+}
+table{
+    background-color: linen;
+}
+body {
+    background-color: burlywood;
+    
+}
+img:active {
+  border: 1px solid red;
+}
+.nav_button_bg{
+    background-color: skyblue;
+}
+
+.container{
+    width: 1024px;
+    height:100%;
+    margin: auto;
+    margin-top: 70px;
+        }
+
+article{
+    background-color: linen;
+    float:left;
+    width:60%;
+    height:100%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid;
+}
+        
+visual-body{
+    background-color: linen;
+    float:left;
+    width:35%;
+    height:100%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid;
+}
+
+.comparison_body{
+    background-color: linen;
+/*
+    width:100%;
+    height:100%;
+*/
+    margin:20px;
+    padding:20px;
+    border: 1px solid;
+}
+.body_img{
+    width:160px;
+    height:160px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.visual_img{
+    width:100%;
+    height:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.title_style{
+    color: darkgreen;
+    font-weight: bolder;
+}
+.button_style{
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.text_center{
+    text-align: center
+}
+
+h1 {
+    font-size:30px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+    border-top: 3px green solid;
+    padding:5px;
+    background-color: #333333;
+    clear: both;
+    text-align: center;
+    color:aliceblue;
+}
+
+            
+            
+            @media only screen and (max-width: 991px){
+                article{
+                    position: static;
+                    float: none;
+                    width: 95%;
+                    background-color: ivory;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
+                visual-body{
+                    width: 95%;
+                    background-color: ivory;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
+                .comparison_body{
+                    width: 95%;
+                    background-color: ivory;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
+                
+                .visual_img{
+                    width:100%;
+                    height:100%;
+                    margin-left:5px;
+                    border-bottom: 1px solid darkgray;
+                }
+
+                footer{
+                    position: relative;
+                    bottom:0px;
+                }
+                .box{
+                    float: left;
+                    width: 20%;
+                    margin: 20px;
+                }
+                .container{
+                    width: 100%;
+                    height:100%;
+                }
+                
+  
+            }
+
